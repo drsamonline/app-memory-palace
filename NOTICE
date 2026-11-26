@@ -1,0 +1,30 @@
+NOTICE
+======
+
+Memory Palace — https://github.com/drsamonline/app-memory-palace
+Copyright 2026 Dr Sohil Momin. Licensed under PolyForm Noncommercial 1.0.0 (see LICENSE).
+
+Third-party components
+----------------------
+
+None. Memory Palace has no third-party dependency and no CDN.
+
+Vendored from this project's own kits (same licence, same author), copied verbatim on 26/11/2026:
+
+- web-kit 0.1.0 — docs/play/web-kit.js — the offline shell, storage helpers and PWA registration
+- export-kit 1.0.0 — docs/play/export-kit.js — Blob download, used for the palace export
+
+Neither kit is modified. Neither makes a network request.
+
+Not a flashcard app
+-------------------
+
+There is no interval, ease factor, due date or repetition schedule in this app, and no score, grade or
+streak. The palace is the method: you place things in a room and walk the room back. A test reports what you
+got right and wrong in order, and shows each miss at the spot it belonged to — it does not rate you.
+
+The ten-per-room cap
+--------------------
+
+A room holds ten. An eleventh is REFUSED and the refusal names the item it would have displaced, because a
+memory palace that silently drops a thing is worse than one that says the room is full.
